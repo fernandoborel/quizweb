@@ -13,6 +13,9 @@ function showQuestion() {
     if(questions[currentQuestion]) {
         let q = questions[currentQuestion];
 
+        //barra de progresso
+        let pct = (currentQuestion / questions.length) * 100;
+
         // mostrar questões
         document.querySelector('.scoreArea').style.display = 'none';
         document.querySelector('.questionArea').style.display = 'block';
