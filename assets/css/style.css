@@ -45,6 +45,14 @@ h1 {
     width: 100%;
 }
 
+@media (max-width: 999px) {
+    .questionArea {
+        width: 350px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
 .question {
     color: #FFF;
     font-size: 18px;
