@@ -120,8 +120,40 @@ h1 {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-footer {
-    margin-top: 20px;
+
+/*footer*/
+.devfer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.devfer h2{
     color: #ff7800;
-    font-size: 13px;
+    font-size: 25px;
+}
+  
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.linkedin{
+    background-color: #0E76A9 ;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+  
+@media (max-width: 999px) {
+    .devfer {
+      margin: 30px 10px;
+    }
+    .devfer h2{
+      font-size: 20px;
+    }
 }
