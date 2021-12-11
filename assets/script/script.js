@@ -2,11 +2,10 @@
 let currentQuestion = 0;
 let correctAnswer = 0;
 
-
-
 showQuestion();
 
-
+//botão
+document.querySelector('.scoreArea button').addEventListener('click', resetEvent);
 
 // funções
 function showQuestion() {
@@ -78,4 +77,11 @@ function finishQuiz() {
     document.querySelector('.scoreArea').style.display = 'block';
     document.querySelector('.questionArea').style.display = 'none';
     document.querySelector('.progress--bar').style.width = '100%';
+}
+
+//função para resetar
+function resetEvent() {
+    currentQuestion = 0;
+    correctAnswer = 0;
+    showQuestion();
 }
