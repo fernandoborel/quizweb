@@ -36,6 +36,7 @@ function showQuestion() {
         })
     } else {
         // sem questões.
+        finishQuiz();
     }
 }
 
@@ -49,4 +50,32 @@ function optionClickEvent(e) {
 
     currentQuestion++;
     showQuestion();
+}
+
+//função para quando acabar as questões
+function finishQuiz() {
+    //pontos
+    let points = Math.floor((correctAnswer / questions.length) * 100);
+    
+    //condições de acertos
+    if(points < 30) {
+        document.querySelector('.scoreText1').innerHTML = 'Tá mal hein, estude mais!';
+        document.querySelector('.scorePct').style.color = '#FF0000';
+    } else if (points >= 30 && points < 70) {
+        document.querySelector('.scoreText1').innerHTML = 'Muito bem!';
+        document.querySelector('.scorePct').style.color = '#FFFF00';
+    } else if (points > 70) {
+        document.querySelector('.scoreText1').innerHTML = 'Parabéns!';
+        document.querySelector('.scorePct').style.color = '#0D630D';
+    }
+
+    //% de acertos
+    document.querySelector('.scorePct').innerHTML = `Acertou ${points}%`;
+    
+    //quantidade de questões respondidas
+    document.querySelector('.scoreText2').innerHTML = `Você respondeu ${questions.length} questões e acertou ${correctAnswer} questões.`;
+    
+    document.querySelector('.scoreArea').style.display = 'block';
+    document.querySelector('.questionArea').style.display = 'none';
+    document.querySelector('.progress--bar').style.width = '100%';
 }
