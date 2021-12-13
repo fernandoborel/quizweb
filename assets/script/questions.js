@@ -40,54 +40,54 @@ let questions = [
         answer: 1
     },
     {
-        question: 'Para que serve as tags legend e fieldset?',
+        question: 'Para que é usado o item @media no CSS?',
         options: [
-            'separar e organizar visualmente os inputs de um formulário por blocos',
-            'deixar os dados do formulário seguro',
-            'colocar legendas nos inputs',
+            'Para alterar as propriedades dos elementos de acordo com a resolução, na qual, a página está',
+            'Tag padrão para alterar imagens no CSS',
+            'Usado para programar todo CSS dentro da página HTML',
             'todas as alternativas estão corretas'
         ],
         answer: 0
     },
     {
-        question: 'Para que serve as tags legend e fieldset?',
+        question: 'O que o termo HTML significa?',
         options: [
-            'separar e organizar visualmente os inputs de um formulário por blocos',
-            'deixar os dados do formulário seguro',
-            'colocar legendas nos inputs',
+            'Hyper Text Markup Language',
+            'Hyperlinks and text markup language',
+            'Home tool markup language',
             'todas as alternativas estão corretas'
         ],
         answer: 0
     },
     {
-        question: 'Para que serve as tags legend e fieldset?',
+        question: 'Que organização cuida dos padrões web?',
         options: [
-            'separar e organizar visualmente os inputs de um formulário por blocos',
-            'deixar os dados do formulário seguro',
-            'colocar legendas nos inputs',
-            'todas as alternativas estão corretas'
+            'Mozilla',
+            'Google',
+            'W3C',
+            'Microsoft'
         ],
-        answer: 0
+        answer: 2
     },
     {
-        question: 'Para que serve as tags legend e fieldset?',
+        question: 'Como inserir uma cor de fundo?',
         options: [
-            'separar e organizar visualmente os inputs de um formulário por blocos',
-            'deixar os dados do formulário seguro',
-            'colocar legendas nos inputs',
+            '<body bg=”yellow”>',
+            '<body style=”background-color: yellow;”>',
+            '<background>Yellow</background>',
             'todas as alternativas estão corretas'
         ],
-        answer: 0
+        answer: 1
     },
     {
-        question: 'Para que serve as tags legend e fieldset?',
+        question: 'É considerado um valor aceito na propriedade width e height:',
         options: [
-            'separar e organizar visualmente os inputs de um formulário por blocos',
-            'deixar os dados do formulário seguro',
-            'colocar legendas nos inputs',
+            'div',
+            'class',
+            'auto',
             'todas as alternativas estão corretas'
         ],
-        answer: 0
+        answer: 2
     },
     {
         question: 'Para que serve as tags legend e fieldset?',
