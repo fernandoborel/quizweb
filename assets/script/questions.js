@@ -1,5 +1,115 @@
 let questions = [
     {
+        question: 'Defina o que é HTML.',
+        options: [
+            'grupo de tags que formam um site',
+            'é a estilização das tags de um site',
+            'Uma linguagem que através de tags apresenta informações como imagens e textos interpretada pelo navegador',
+            'Linguagem de programação'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Qual é a ferramenta responsável pela leitura e transmissão do código HTML para o usuário?',
+        options: [
+            'Antivirus',
+            'bloco de notas',
+            'navegador',
+            'sistema operacional'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Para os motores de busca (Google, Yahoo, etc) o que as tags header, footer e nav tem de diferente?',
+        options: [
+            'o efeito visual no site',
+            'cada tag vai especificar o conteúdo de cada parte do site, como: cabeçalho, menu e rodapé',
+            'os motores de buscas vão achar seu site caso contenham essas tags',
+            'todas as alternativas estão corretas'
+        ],
+        answer: 1
+    },
+    {
+        question: 'Qual a propriedade usada para setar a duração de uma animação?',
+        options: [
+            'animation-time',
+            'animation-duration',
+            'animation-datatime',
+            'todas as alternativas estão corretas'
+        ],
+        answer: 1
+    },
+    {
+        question: 'Para que serve as tags legend e fieldset?',
+        options: [
+            'separar e organizar visualmente os inputs de um formulário por blocos',
+            'deixar os dados do formulário seguro',
+            'colocar legendas nos inputs',
+            'todas as alternativas estão corretas'
+        ],
+        answer: 0
+    },
+    {
+        question: 'Para que serve as tags legend e fieldset?',
+        options: [
+            'separar e organizar visualmente os inputs de um formulário por blocos',
+            'deixar os dados do formulário seguro',
+            'colocar legendas nos inputs',
+            'todas as alternativas estão corretas'
+        ],
+        answer: 0
+    },
+    {
+        question: 'Para que serve as tags legend e fieldset?',
+        options: [
+            'separar e organizar visualmente os inputs de um formulário por blocos',
+            'deixar os dados do formulário seguro',
+            'colocar legendas nos inputs',
+            'todas as alternativas estão corretas'
+        ],
+        answer: 0
+    },
+    {
+        question: 'Para que serve as tags legend e fieldset?',
+        options: [
+            'separar e organizar visualmente os inputs de um formulário por blocos',
+            'deixar os dados do formulário seguro',
+            'colocar legendas nos inputs',
+            'todas as alternativas estão corretas'
+        ],
+        answer: 0
+    },
+    {
+        question: 'Para que serve as tags legend e fieldset?',
+        options: [
+            'separar e organizar visualmente os inputs de um formulário por blocos',
+            'deixar os dados do formulário seguro',
+            'colocar legendas nos inputs',
+            'todas as alternativas estão corretas'
+        ],
+        answer: 0
+    },
+    {
+        question: 'Para que serve as tags legend e fieldset?',
+        options: [
+            'separar e organizar visualmente os inputs de um formulário por blocos',
+            'deixar os dados do formulário seguro',
+            'colocar legendas nos inputs',
+            'todas as alternativas estão corretas'
+        ],
+        answer: 0
+    },
+    {
+        question: 'Para que serve as tags legend e fieldset?',
+        options: [
+            'separar e organizar visualmente os inputs de um formulário por blocos',
+            'deixar os dados do formulário seguro',
+            'colocar legendas nos inputs',
+            'todas as alternativas estão corretas'
+        ],
+        answer: 0
+    },
+    {
         question: 'Em qual elemento HTML nós colocamos o javascript?',
         options: [
             'tag js',
@@ -92,4 +202,5 @@ let questions = [
         ],
         answer: 0
     },
+    
 ];
