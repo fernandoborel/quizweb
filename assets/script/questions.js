@@ -70,16 +70,6 @@ let questions = [
         answer: 2
     },
     {
-        question: 'Como inserir uma cor de fundo?',
-        options: [
-            '<body bg=”yellow”>',
-            '<body style=”background-color: yellow;”>',
-            '<background>Yellow</background>',
-            'todas as alternativas estão corretas'
-        ],
-        answer: 1
-    },
-    {
         question: 'É considerado um valor aceito na propriedade width e height:',
         options: [
             'div',
@@ -90,14 +80,14 @@ let questions = [
         answer: 2
     },
     {
-        question: 'Para que serve as tags legend e fieldset?',
+        question: 'Qual tipo de input é usado para recolher arquivos do usuário?',
         options: [
-            'separar e organizar visualmente os inputs de um formulário por blocos',
-            'deixar os dados do formulário seguro',
-            'colocar legendas nos inputs',
+            'hidden',
+            'text',
+            'file',
             'todas as alternativas estão corretas'
         ],
-        answer: 0
+        answer: 2
     },
     {
         question: 'Para que serve as tags legend e fieldset?',
@@ -199,6 +189,106 @@ let questions = [
             'while (i <= 10)',
             'while (i <= 10; i++)',
             'while i = 1 to 10'
+        ],
+        answer: 0
+    },
+    {
+        question: 'A sigla DOM significa:',
+        options: [
+            'Document Orientation Mock',
+            'Document Object Model',
+            'Doctype Object Model',
+            'Doctype Orientation Mock'
+        ],
+        answer: 1
+    },
+    {
+        question: 'O que é uma função?',
+        options: [
+            'Tipo de código específico do javascript que funciona apenas no console do navegador',
+            'Configuração da linguagem javascript, a qual tem que ser programada no computador para rodar o código',
+            'Conjunto de códigos que são utilizados para realizar diversas ações programadas por ele',
+            'Todas as alternativas estão corretas'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Um exemplo de objeto JavaScript utilizado frequentemente nos dias e hoje é o:',
+        options: [
+            'XML',
+            'HTML',
+            'JSON',
+            'CSS'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Para que serve um Objeto no Javascript?',
+        options: [
+            'Serve para fornecer nomes a funções de maneira aleatória no código',
+            'Serve para deixar o código javascript funcional em uma página web',
+            'Servem para receber e guardar valores que poderá ser usados em diversas parte do código ',
+            'Todas as alternativas estão incorretas'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Qual diferença do uso do If else para o Switch?',
+        options: [
+            'O switch trata de maneira mais rápida a condição já o if else contém múltiplas condições para processar',
+            'Serve para deixar o código javascript funcional em uma página web',
+            'Servem para receber e guardar valores que poderá ser usados em diversas parte do código',
+            'Todas as alternativas estão incorretas'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Das alternativas a seguir, qual a correta em realação ao loop for?',
+        options: [
+            'Bloco de código no qual só pode ser utilizado em condições false para que rode um loop',
+            'Condição na qual executa um bloco de código desde que sua condição seja verdadeira',
+            'Loop for é um bloco de código na qual sempre vai ser rodado apenas ele no sistema',
+            'Todas as alternativas estão incorretas'
+        ],
+        answer: 1
+    },
+    {
+        question: 'Qual diferença entre o loop for e o loop while?',
+        options: [
+            'While contém múltiplas condições, já o For contém apenas uma condição',
+            'O for executa o bloco de código a partida da condição e incremento, o while a instrução até que a condição seja atendida',
+            'Ambas possuem a mesma funcionalidade e funcionamento de sintaxe',
+            'Todas as alternativas estão incorretas'
+        ],
+        answer: 1
+    },
+    {
+        question: 'O operador ____________, no ES6, tem como objetivo ampliar objetos, strings e arrays. A sintaxe para sua utilização é similar às reticências, os três pontos (...). Estamos falando do:',
+        options: [
+            'spread',
+            'rest',
+            'lógico',
+            'ternário'
+        ],
+        answer: 0
+    },
+    {
+        question: 'O operador REST facilita a escrita do código com relação a quantidade indefinida de argumentos passados ao parâmetro de uma função. A mesma solução pode ser obtida com:',
+        options: [
+            'objeto increments',
+            'objeto arguments',
+            'objeto length',
+            'objeto createsh'
+        ],
+        answer: 1
+    },
+    {
+        question: 'Qual a finalide das funções repeat e includes?',
+        options: [
+            'includes() vai verificar se o parâmetro passado pra ela existe dentro de uma variável ou array. repeat() vai repetir o parâmetro passado pra ela',
+            'includes() vai repetir o parâmetro passado pra ela. repeat() vai verificar se o parâmetro passado pra ela existe dentro de uma variável ou array',
+            'includes() vai verificar um arquivo existe. repeat() vai repetir o parâmetro passado pra ela.',
+            'includes() vai verificar se o parâmetro passado pra ela existe dentro de uma variável ou array. repeat() vai repetir o parâmetro passado pra ela 2 vezes'
         ],
         answer: 0
     },

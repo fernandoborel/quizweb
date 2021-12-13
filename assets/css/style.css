@@ -55,6 +55,17 @@ h1 {
         margin-left: 10px;
         margin-right: 10px;
     }
+    .option{
+        width: 300px;
+        height: 100px;
+    }
+    .question{
+        width: 300px;
+        height: 70px;
+    }
+    .scoreArea{
+        width: 350px;
+    }
 }
 
 .question {
@@ -65,7 +76,7 @@ h1 {
 .option {
     display: flex;
     align-items: center;
-    height: 40px;
+    height: 80px;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     margin-bottom: 5px;
@@ -166,6 +177,6 @@ h1 {
       margin: 30px 10px;
     }
     .devfer h2{
-      font-size: 20px;
+      font-size: 15px;
     }
 }
