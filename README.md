@@ -4,4 +4,4 @@
 
 ### Para esse projeto foi selecionado 30 questões sendo HTML, CSS e JavaScript.
 
-Para utilizar é simples, basta o usuário escolher apenas uma questão, no fim das questões irá aparecer quantas questões o usuário acertou e a porcentagem de acerto.
+Para utilizar é simples, basta o usuário escolher apenas uma questão, note que a cada questão respondida a barra de progresso (parte superior) irá se movimentar, no fim das questões irá aparecer quantas questões o usuário acertou e a porcentagem de acerto.
